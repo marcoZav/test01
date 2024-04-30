@@ -3,3 +3,8 @@
 data git01;
 git=1;
 run;
+
+data _null_;
+file _webout;
+put '{ "item1" : "CIAO" }';
+run;
