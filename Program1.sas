@@ -5,6 +5,11 @@ git=1;
 run;
 
 %let rcPgm=&syscc;
+
+data git01;
+git=1;
+run;
+
 /* end */
 
 
